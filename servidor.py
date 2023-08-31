@@ -23,6 +23,7 @@ def modeloPrediccon():
         print(contenido)
         return jsonify({'resultado':"Hola"})
 
+
 if __name__ == "__main__":
         servidorWeb.run(debug=False,host="0.0.0.0",port="8080")
 
