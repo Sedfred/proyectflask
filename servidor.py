@@ -27,6 +27,19 @@ def modeloPrediccion():
 
     return jsonify({'resultado':str(resultado[0])})
 
+@servidorWeb.route('/modeloForm',methods=['POST'])
+def modeloForm():
+    #Procesar los datos de entrada
+    contenido = request.form 
+    print(contenido)
+    datosEntrada = np.array([
+        .88, 0, 2.6, 0.098, 25, 67, .9968,1,0.4,
+        contenido["pH"],contenido["alcohol"],contenido["sulphates"],
+    ])
+    resultado= dt.predict(datosEntrada.reshape(1,-1))
+
+    return jsonify({'resultado':str(resultado[0])})
+
 
 if __name__ == '__main__':
     servidorWeb.run(debug=False,host='0.0.0.0',port='8080')
