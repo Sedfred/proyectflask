@@ -20,7 +20,7 @@ def modeloPrediccion():
     contenido = request.json
     print(contenido)
     datosEntrada = np.array([
-        .88, 0, 2.6, 0.098, 25, 67, .9968,
+        .88, 0, 2.6, 0.098, 25, 67, .9968,1,0.4,
         contenido["pH"],contenido["alcohol"],contenido["sulphates"],
     ])
     resultado= dt.predict(datosEntrada.reshape(1,-1))
