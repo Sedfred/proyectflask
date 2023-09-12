@@ -83,19 +83,23 @@
                     <option value="land">Land</option>
                 </select>
             </div>
-
-            <!-- Open-Ended Question -->
-            <div class="form-group">
-                <label for="openEnded">Preferred Location:</label>
-                <input type="text" id="openEnded" name="location">
-            </div>
-
             <!-- True/False Question -->
             <div class="form-group">
-                <label>Do you prefer a furnished property?</label>
+                <label>Tienes alberca?</label>
                 <input type="radio" name="furnished" value="yes"> Yes
                 <input type="radio" name="furnished" value="no"> No
             </div>
+            <!-- Multiple Choice Question -->
+            <div class="form-group">
+                <label for="multipleChoice">localidad:</label>
+                <select id="multipleChoice" name="propertyType">
+                    <option value="house">Portland</option>
+                    <option value="apartment">LOS ANGELES</option>
+                    <option value="condo">TEPITO</option>
+                    <option value="land">SAN PEDRO</option>
+                </select>
+            </div>
+
 
             <!-- Add more questions (Question 4 to Question 20) using a similar structure -->
 
