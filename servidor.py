@@ -13,6 +13,9 @@ servidorWeb = Flask(__name__)
 def formulario():
     return render_template('pagina_prinpal.html')
 
+@servidorWeb.route('/pagina1', methods=['GET'])
+def pagina1():
+    return render_template('pagina1.html')
 
 #Envio de datos a través de JSON
 @servidorWeb.route('/modelo',methods=['POST'])
