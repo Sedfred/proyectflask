@@ -15,7 +15,7 @@ def formulario():
 
 @servidorWeb.route('/pagina1', methods=['GET'])
 def pagina1():
-    return render_template('pagina1.html')
+    return render_template('pagina1')
 
 #Envio de datos a través de JSON
 @servidorWeb.route('/modelo',methods=['POST'])
