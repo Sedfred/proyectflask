@@ -1,15 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .cta-button {
+            margin: 20px 0;
+        }
+
+        .reasons {
+            text-align: left;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .reasons h2 {
+            font-size: 24px;
+        }
+
+        .reasons ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a Nuestra Página</h1>
-    <p>Encuentra la casa de tus sueños con nosotros.</p>
-    
-    <!-- Botón que redirige a la página1.html -->
-    <a href="pagina1">
-        <button>Cotiza tu casa</button>
-    </a>
+    <header>
+        <h1>Bienvenido a Nuestra Página</h1>
+        <p>Encuentra la casa de tus sueños con nosotros.</p>
+    </header>
+
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#mision">Nuestra Misión</a>
+    </nav>
+
+    <div class="container">
+        <!-- Botón que redirige a la página1.html -->
+        <a href="pagina1" class="cta-button">
+            <button>Cotiza tu casa</button>
+        </a>
+
+        <div class="reasons">
+            <h2>7 Razones por las que nuestro sistema es el mejor para evaluar el costo de tu casa:</h2>
+            <ul>
+                <li>Razón 1: Lorem ipsum dolor sit amet.</li>
+                <li>Razón 2: Consectetur adipiscing elit.</li>
+                <li>Razón 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li>Razón 4: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Razón 5: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                <li>Razón 6: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Razón 7: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        © 2023 Tu Compañía - Todos los derechos reservados
+    </footer>
 </body>
 </html>
