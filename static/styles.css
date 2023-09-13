@@ -16,6 +16,8 @@ header {
     margin-right: 600px; /* Ajusta el margen izquierdo según sea necesario */
     width: 100px; /* Cambia el valor para ajustar el ancho de la imagen */
     height: auto; /* Mantiene la proporción original de la imagen */
+    margin-bottom: 10px; /* Espacio entre el logo y el texto */
+
 }
 
 header h1 {
