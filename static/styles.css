@@ -6,6 +6,12 @@ header {
     padding: 20px 0;
 }
 
+/* Estilos para el logo */
+#logo {
+    display: inline-block;
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
 header h1 {
     font-size: 36px;
 }
