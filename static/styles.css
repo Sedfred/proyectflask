@@ -4,12 +4,13 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    display: flex; /* Usar flexbox para controlar la disposición de los elementos internos */
 }
 
 /* Estilos para el logo */
 #logo {
     display: inline-block;
-    margin-left: 200px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-right: 600px; /* Ajusta el margen izquierdo según sea necesario */
     width: 100px; /* Cambia el valor para ajustar el ancho de la imagen */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
