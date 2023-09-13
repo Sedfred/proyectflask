@@ -5,6 +5,9 @@ header {
     text-align: center;
     padding: 20px 0;
     display: flex; /* Usar flexbox para controlar la disposición de los elementos internos */
+    align-items: center;
+    flex-direction: column; /* Cambiar la dirección del flexbox a columna */
+    text-align: center; /* Centrar horizontalmente el contenido */
 }
 
 /* Estilos para el logo */
@@ -17,6 +20,10 @@ header {
 
 header h1 {
     font-size: 36px;
+}
+header p {
+    font-size: 18px;
+    margin-top: 10px; /* Espacio entre el texto y el logo */
 }
 
 /* Estilos para el botón CTA */
