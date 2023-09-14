@@ -67,7 +67,7 @@ body {
 }
 /* Estilos para el fondo de parallax */
 .parallax-bg {
-    background-image: url("BANNER3.jpg"); /* Ruta de tu imagen de fondo */
+    background-image: url("BANNER4.jpg"); /* Ruta de tu imagen de fondo */
     background-size: cover;
     position: fixed;
     width: 100%;
