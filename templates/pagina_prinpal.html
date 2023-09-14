@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-<link rel="stylesheet" type="text/css" href="styles.css">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Página de Inicio</title>
 </head>
 <body>
     <header>
-        <img src="{{ url_for('static', filename='logo hvp.png') }}" alt="Logo de la empresa" id="logo">
-        <h1>Home Value Pro</h1>
-        <p>Encuentra la casa de tus sueños con nosotros.</p>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="{{ url_for('static', filename='logo hvp.png') }}" alt="Logo de la empresa" id="logo">
+            </div>
+            <div class="header-title">
+                <h1>Home Value Pro</h1>
+                <p>Dale a tu casa el cambio que se merece.</p>
+            </div>
+        </div>
     </header>
+
 
     <nav>
         <a href="#nosotros">Nosotros</a>
