@@ -110,7 +110,7 @@ body {
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido (botón) */
     align-items: center; /* Centra verticalmente el contenido (botón) */
-    height: 400px; /* Establece la altura del contenedor */
+    height: 200px; /* Establece la altura del contenedor */
 }
 
 .cta-button {
