@@ -78,3 +78,17 @@ body {
     z-index: -1; /* Coloca el fondo detrás del contenido principal */
 }
 
+/* ... Tus estilos previos ... */
+
+.image-container {
+    margin-top: 20px; /* Espacio superior para separar la imagen del contenido anterior */
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+
+
