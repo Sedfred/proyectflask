@@ -46,8 +46,15 @@ def modeloForm():
     ])
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
+    # Supongamos que 'resul' es un número decimal
+    resul = resultado[0]
+
+    # Formatear 'resul' con comas como separadores de miles y dos decimales
+    resul_formateado = '{:,.2f}'.format(resul)
+
+    
     #return jsonify({'resultado':str(resultado[0])})
-    return render_template('resultado.html',resul=round(resultado[0],2))
+    return render_template('resultado.html',resul=resul_formateado)
 
 
 if __name__ == '__main__':
