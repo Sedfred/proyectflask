@@ -4,7 +4,7 @@ from joblib import load
 import os
 
 #Cargar el modelo
-dt=load('dt1.joblib')
+dt=load('lin_reg.joblib')
 
 #Servidor (backend)
 servidorWeb = Flask(__name__)
@@ -24,8 +24,9 @@ def modeloPrediccion():
     contenido = request.json
     print(contenido)
     datosEntrada = np.array([
-        .88, 0, 2.6, 0.098, 25, 67, .9968,1,0.4,
-        contenido["pH"],contenido["alcohol"],contenido["sulphates"],
+        contenido["OverallQual"],contenido["GarageCars"],contenido["ExterQual"],contenido["BsmtQual"],
+        contenido["KitchenQual"],contenido["GrLivArea"],contenido["TotalBsmtSF"],
+        contenido["Fireplaces"],contenido["Age"]
     ])
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
@@ -37,8 +38,9 @@ def modeloForm():
     contenido = request.form 
     print(contenido)
     datosEntrada = np.array([
-        .88, 0, 2.6, 0.098, 25, 67, .9968,1,0.4,
-        contenido["pH"],contenido["alcohol"],contenido["sulphates"],
+        contenido["OverallQual"],contenido["GarageCars"],contenido["ExterQual"],contenido["BsmtQual"],
+        contenido["KitchenQual"],contenido["GrLivArea"],contenido["TotalBsmtSF"],
+        contenido["Fireplaces"],contenido["Age"]
     ])
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
