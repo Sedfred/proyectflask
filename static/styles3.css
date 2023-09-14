@@ -26,14 +26,14 @@ form {
 
 /* Agregamos un contenedor para el logo de fondo */
 .form-background {
-    background-image: url("logo hvp.png"); /* Usamos url_for para generar la ruta */
+    background-image: url("BANNER2.jpg"); /* Usamos url_for para generar la ruta */
 	background-size: cover;
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
-	opacity: .5; /* Ajusta la opacidad del logo */
+	opacity: 0.5; /* Ajusta la opacidad del logo */
 	z-index: -1; /* Colocamos el logo detrás del formulario */
 }
 label {
