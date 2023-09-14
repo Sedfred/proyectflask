@@ -26,7 +26,7 @@ form {
 
 /* Agregamos un contenedor para el logo de fondo */
 .form-background {
-    background-image: url("BANNER2.jpg"); /* Usamos url_for para generar la ruta */
+    background-image: url("BANNER3.jpg"); /* Usamos url_for para generar la ruta */
 	background-size: cover;
 	position: absolute;
 	width: 100%;
