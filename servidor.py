@@ -31,6 +31,8 @@ def modeloPrediccion():
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
     return jsonify({'resultado':str(resultado[0])})
+    #return render_template('pagina_prinpal.html',resul=resultado)
+
 
 @servidorWeb.route('/modeloForm',methods=['POST'])
 def modeloForm():
@@ -44,7 +46,8 @@ def modeloForm():
     ])
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
-    return jsonify({'resultado':str(resultado[0])})
+    #return jsonify({'resultado':str(resultado[0])})
+    return render_template('resultado.html',resul=resultado)
 
 
 if __name__ == '__main__':
