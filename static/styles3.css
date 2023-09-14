@@ -33,7 +33,7 @@ form {
 	height: 100%;
 	top: 0;
 	left: 0;
-	opacity: 0.3; /* Ajusta la opacidad del logo */
+	opacity: 0.8; /* Ajusta la opacidad del logo */
 	z-index: -1; /* Colocamos el logo detrás del formulario */
 }
 label {
