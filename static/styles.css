@@ -102,3 +102,29 @@ nav a:hover {
 body {
     font-family: 'swap', sans-serif;
 }
+/* Estilos para el contenedor del botón CTA */
+.cta-container {
+    background-image: url("{{ url_for('static', filename='BANNER.png') }}");
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el contenedor */
+    background-position: center; /* Centra la imagen de fondo horizontal y verticalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido (botón) */
+    align-items: center; /* Centra verticalmente el contenido (botón) */
+    height: 400px; /* Establece la altura del contenedor */
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Elimina el subrayado del botón (por defecto enlaces) */
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
