@@ -96,6 +96,7 @@ body {
     height: 50px;
     margin: 0 auto;
     animation: bounce 2s infinite;
+    overflow: visible;
   }
   
   .arrow-shaft {
