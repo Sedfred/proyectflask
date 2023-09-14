@@ -47,8 +47,7 @@ def modeloForm():
     resultado= dt.predict(datosEntrada.reshape(1,-1))
 
     #return jsonify({'resultado':str(resultado[0])})
-    resul_formateado = '{:,.2f}'.format(resultado)
-    return render_template('resultado.html',resul=resul_formateado)
+    return render_template('resultado.html',resul=round(resultado[0],2))
 
 
 if __name__ == '__main__':
