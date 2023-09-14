@@ -18,7 +18,7 @@ header {
     height: auto; /* Mantiene la proporción original de la imagen */
     margin-bottom: 10px; /* Espacio entre el logo y el texto */
 
-}
+    }
 
 header h1 {
     font-size: 36px;
