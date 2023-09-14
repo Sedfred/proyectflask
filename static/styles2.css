@@ -65,3 +65,17 @@ body {
 	opacity: 0.5; /* Ajusta la opacidad del logo */
 	z-index: -1; /* Colocamos el logo detrás del formulario */
 }
+/* Estilos para el fondo de parallax */
+.parallax-bg {
+    background-image: url("BANNER3.jpg"); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5; /* Ajusta la opacidad del fondo */
+    z-index: -1; /* Coloca el fondo detrás del contenido principal */
+}
+
+/* Otros estilos para tu contenido principal (container) aquí */
