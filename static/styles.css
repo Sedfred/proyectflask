@@ -30,7 +30,8 @@ header p {
 
 /* Estilos para el botón CTA */
 .cta-button {
-    margin: 20px 0;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .cta-button button {
@@ -41,11 +42,13 @@ header p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Agregamos una transición para la animación */
 }
 
 .cta-button button:hover {
     background-color: #0056b3;
 }
+
 
 /* Estilos para la sección de razones */
 .reasons {
