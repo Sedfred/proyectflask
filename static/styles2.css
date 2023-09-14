@@ -79,3 +79,54 @@ body {
 }
 
 /* Otros estilos para tu contenido principal (container) aquí */
+/* Estilos para las flechas animadas */
+.arrow-container {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .arrow {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: bounce 2s infinite;
+  }
+  
+  .arrow-shaft {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 6px;
+    height: 30px;
+    margin-left: -3px;
+    background-color: #00aeff;
+    border-radius: 3px;
+  }
+  
+  .arrow-tip {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: -10px;
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #00aeff transparent transparent transparent;
+    transform: rotate(180deg);
+  }
+  
+  /* Animación de rebote */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
