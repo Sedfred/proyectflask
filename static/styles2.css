@@ -22,7 +22,7 @@ h1 {
 }
 
 .score-container {
-    background-color: #007BFF;
+    background-color: #00aeff;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -40,7 +40,7 @@ h2 {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #00aeff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
