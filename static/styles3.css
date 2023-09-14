@@ -26,7 +26,7 @@ form {
 
 /* Agregamos un contenedor para el logo de fondo */
 .form-background {
-	background-image: url('static/logo.png'); /* Ruta a tu imagen de logo */
+	background-image: url('static/logo hvp.png'); /* Ruta a tu imagen de logo */
 	background-size: cover;
 	position: absolute;
 	width: 100%;
