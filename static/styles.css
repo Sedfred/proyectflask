@@ -1,5 +1,6 @@
 /* Estilos para el encabezado */
 header {
+    font-family: 'swap', sans-serif;
     background-color: #333;
     color: #fff;
     padding: 20px 0;
@@ -13,7 +14,7 @@ header {
 
 /* Estilos para el logo */
 #logo {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-left: 20px; /* Margen izquierdo para el logo */
 }
