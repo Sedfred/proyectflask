@@ -50,3 +50,6 @@ h2 {
 .btn:hover {
     background-color: #b33600;
 }
+body {
+    font-family: 'swap', sans-serif;
+}
